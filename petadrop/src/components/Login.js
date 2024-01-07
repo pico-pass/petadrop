@@ -1,4 +1,8 @@
-export function Login() {
+import exp from 'constants'
+import Image from 'next/image'
+import Link from 'next/link'
+
+export default function Login() {
     return(
       <div className="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
           <h2 className="text-gray-900 text-lg font-medium title-font mb-5">Sign In</h2>
